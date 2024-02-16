@@ -25,8 +25,8 @@ CREATE TABLE Ingredients
 
 CREATE TABLE MealIngredients
 (
-	MealId INT FOREIGN KEY REFERENCES Meals(Id),
-	IngrId INT FOREIGN KEY REFERENCES Ingredients(Id),
+ MealId INT FOREIGN KEY REFERENCES Meals(Id),
+ IngrId INT FOREIGN KEY REFERENCES Ingredients(Id),
 )
 
 INSERT INTO Categories
